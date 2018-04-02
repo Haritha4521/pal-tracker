@@ -12,7 +12,7 @@ public interface TimeEntryRepository {
 
     List<TimeEntry> list();
 
-    TimeEntry update(long eq, TimeEntry any);
+    TimeEntry update(long id, TimeEntry timeEntry);
 
-    void delete(long l);
+    void delete(long id);
 }
